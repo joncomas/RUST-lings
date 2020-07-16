@@ -3,9 +3,11 @@
 
 // I AM NOT DONE
 
+#[macro_use]
 fn main() {
     my_macro!();
 }
+
 
 macro_rules! my_macro {
     () => {
